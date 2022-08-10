@@ -5,17 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="icon" href="/Global/Assets/img/Spotify-navegador.png">
-    <link rel="stylesheet" href="/Global/Assets/CSS/global.css">
-    <link rel="stylesheet" href="/Global/Assets/CSS/Homepage/Homepage.css">
-    <link rel="stylesheet" href="/Global/Assets/CSS/Homepage/Responsive-Homepage.css">
+    <link rel="icon" href="../Assets/img/Spotify-navegador.png">
+    <link rel="stylesheet" href="../Assets/CSS/global.css">
+    <link rel="stylesheet" href="../Assets/CSS/Homepage/Homepage.css">
+    <link rel="stylesheet" href="../Assets/CSS/Homepage/Responsive-Homepage.css">
     <title>Spotify Premium - Spotify</title>
 </head>
     
 <body>            
     <header>
         <nav class="navbar navbar-expand "> 
-            <div class="container col-8 offset-2"> 
+            <div class="container offset-2"> 
                    
                 <a class=" navbar-brand" href="#">
                     <img class="logo" src="/Global/Assets/img/Logo-Spotify.png" alt="#">
@@ -41,7 +41,7 @@
                             <a class="linha nav-link" href="#"></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Inscrever-se<span class="sr-only">(current)</span></a>
+                            <a class="Inscrever nav-link" href="#">Inscrever-se<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Entrar<span class="sr-only">(current)</span></a>
@@ -76,12 +76,12 @@
         <section class="c-branco container-fluid">
             <h1 class="pqpremium d-flex justify-content-center">Por que ser Premium?</h1>
             
-            <div class="d-flex justify-content-between col-8 offset-2 ">
+            <div class="d-flex justify-content-between col-8 offset-2">
             
                 <div class="crdbranco card text-center">
                     <img src="/Global/Assets/img/Modo-offline.png " class="imagem card-img-top" alt="#">
                     <div class="card-body">
-                    <h5 class="card-title">Modo offline.</h5>
+                    <h5 class="card-title font-weight-bold">Modo offline.</h5>
                     <p class="card-text">Ouça música onde estiver.</p>
                     </div>
                 </div>
@@ -89,7 +89,7 @@
                 <div class="crdbranco card text-center">
                     <img src="/Global/Assets/img/Ouça-sem-anúncios.png" class="imagem card-img-top" alt="#">
                     <div class="card-body">
-                    <h5 class="card-title">Ouça músicas sem anúncios.</h5>
+                    <h5 class="ouça card-title font-weight-bold">Ouça músicas sem anúncios.</h5>
                     <p class="card-text">Curta música, sem parar.</p>
                     </div>
                 </div>
@@ -97,7 +97,7 @@
                 <div class="crdbranco card text-center">
                     <img src="/Global/Assets/img/Ouça-o-que-quiser.png" class="imagem card-img-top" alt="#">
                     <div class="card-body">
-                    <h5 class="card-title">Ouça o que quiser.</h5>
+                    <h5 class="card-title font-weight-bold">Ouça o que quiser.</h5>
                     <p class="card-text">Mesmo no celular ou tablet.</p>
                     </div>
                 </div>
@@ -105,7 +105,7 @@
                 <div class="crdbranco card text-center">
                     <img src="/Global/Assets/img/Troque-de-musica.png" class="imagem card-img-top" alt="#">
                     <div class="card-body">
-                    <h5 class="card-title">Troque de música o quanto quiser.</h5>
+                    <h5 class="card-title font-weight-bold">Troque de música o quanto quiser.</h5>
                     <p class="card-text">Pule quando quiser.</p>
                     </div>
                 </div>
@@ -117,41 +117,72 @@
             <div class=" col-8 offset-2">                
                 <div class="pqpremium d-flex flex-column pt-5 text-center">
 
-                    <h1>Escolha seu plano Premium</h1>
+                    <h1 class="plano">Escolha seu plano Premium</h1>
                     <p>Ouça sem limites no seu celular, alto-falante e em outros dispositivos.</p>
                     
                 </div>
 
-                <div class= "container-fluid todoscrd d-flex justify-content-between pt-5">                    
-                    <div class="card text-center">
+                <div class= "container-fluid d-flex justify-content-between pt-5">                    
+                    <div class="crd-cinza card">
                         <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <p class="um-mês btn text-white font-weight-bold">1 mês grátis ao assinar</p>
+                        <p class="pagamento btn text-primary font-weight-bold border-primary">Pagamento único disponível</p>
+                        <h5 class="card-title font-weight-bold">Individual</h5>
+                        <p class="card-text">R$ 19,90/mês após o período da oferta 1 conta</p>
+                        <p class="linha-horizontal"></p>
+                        <p>Ouça músicas sem anúncios</p>
+                        <p>Ouça em qualquer lugar — até no modo offline</p>
+                        <p>Escolha a música que quer ouvir</p>
+                        <p>Faça um plano pré-pago ou uma assinatura</p>
+                        <a href="#" class="btn-plano btn text-white" id="#individual">COMEÇAR</a>
+                        <small class="sujeito"><span class="termo">Sujeito a Termos e Condições</span>. O mês grátis não está disponível para usuários que já experimentaram o Premium.</small>
                         </div>
                     </div>
                     
-                    <div class="card text-center">
+                    <div class="crd-cinza card">
                         <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <p class="um-mês btn text-white font-weight-bold">1 mês grátis ao assinar</p>
+                        <p class="pagamento btn text-primary font-weight-bold border-primary">Pagamento único disponível</p>
+                        <h5 class="card-title font-weight-bold">Duo</h5>
+                        <p class="card-text">R$ 24,90/mês após o período da oferta 2 contas</p>
+                        <p class="linha-horizontal"></p>
+                        <p>2 contas Premium para um casal que mora junto</p>
+                        <p>Ouça sem anúncios, no modo offline e sob demanda</p>
+                        <p>Faça um plano pré-pago ou uma assinatura</p>
+                        <a href="#" class="btn-plano btn text-white">COMEÇAR</a>
+                        <small class="sujeito"><span class="termo">Sujeito a Termos e Condições</span>. O mês grátis não está disponível para usuários que já experimentaram o Premium.</small>
                         </div>
                     </div>
 
-                    <div class="card text-center">
+                    <div class="crd-cinza card">
                         <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <p class="um-mês btn text-white font-weight-bold">1 mês grátis ao assinar</p>
+                        <p class="pagamento btn text-primary font-weight-bold bold border-primary">Pagamento único disponível</p>
+                        <h5 class="card-title font-weight-bold">Família</h5>
+                        <p class="card-text">R$ 34,90/mês após o período da oferta Até 6 contas</p>
+                        <p class="linha-horizontal"></p>
+                        <p>6 contas Premium para familiares que moram no mesmo endereço</p>
+                        <p>Bloqueie músicas com conteúdo explícito</p>
+                        <p>Ouça sem anúncios, no modo offline e sob demanda</p>
+                        <p>Spotify Kids: um aplicativo separado, feito especialmente para crianças</p>
+                        <p>Faça um plano pré-pago ou uma assinatura</p>
+                        <a href="#" class="btn-plano btn text-white">COMEÇAR</a>
+                        <small class="sujeito"><span class="termo">Sujeito a Termos e Condições</span>. O mês grátis não está disponível para usuários que já experimentaram o Premium.</small>
                         </div>
                     </div>
 
-                    <div class="card text-center">
+                    <div class="crd-cinza card">
                         <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <p class="um-mês btn text-white font-weight-bold">1 mês grátis ao assinar</p>
+                        <h5 class="card-title font-weight-bold">Universitário</h5>
+                        <p class="card-text">R$ 9,90/mês após o período da oferta 1 conta</p>
+                        <p class="linha-horizontal"></p>
+                        <p>Desconto especial para estudantes universitários que tenham direito à oferta</p>
+                        <p>Ouça músicas sem anúncios</p>
+                        <p>Ouça em qualquer lugar — até no modo offline</p>
+                        <p>Escolha a música que quer ouvir</p>
+                        <a href="#" class="btn-plano btn text-white">COMEÇAR</a>
+                        <small class="sujeito">Oferta disponível somente para estudantes de instituições de ensino superior credenciadas. O mês grátis não está disponível para usuários que já experimentaram o Premium. <span class="termo">Sujeito a Termos e Condições</span> da oferta do Spotify de desconto para universitários.</small>
                         </div>
                     </div>
                 </div>
@@ -159,16 +190,61 @@
         </section>
     </main>
 
-    <footer>
+    <footer>       
         <div class="c-preto container-fluid">
+            <div class=" offset-2">
 
-            <a class=" navbar-brand" href="#">
-                <img class="logo" src="/Global/Assets/img/Logo-Spotify.png" alt="#">
-            </a>
+                <a class=" navbar-brand" href="#">
+                    <img class="logo" src="/Global/Assets/img/Logo-Spotify.png" alt="#">
+                </a>
 
+                <div>
+                    <ul>
+                        <li>
+                            <a href=""></a>
+                        </li>
+                        <li>
+                            <a href=""></a>
+                        </li>
+                        <li>
+                            <a href=""></a>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li>
+                            <a href=""></a>
+                        </li>
+                        <li>
+                            <a href=""></a>
+                        </li>
+                        <li>
+                            <a href=""></a>
+                        </li>
+                        <li>
+                            <a href=""></a>
+                        </li>
+                        <li>
+                            <a href=""></a>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li>
+                            <a href=""></a>
+                        </li>
+                        <li>
+                            <a href=""></a>
+                        </li>
+                        <li>
+                            <a href=""></a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
         </div> 
-    </footer>
-           
+    </footer>           
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

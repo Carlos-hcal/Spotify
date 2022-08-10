@@ -11,7 +11,7 @@
     a > img{
         width: 190px;
         cursor: pointer;
-        margin-right: 23vw;
+        margin-right: 21vw;
         margin-left: -16px;
     }
 
@@ -34,6 +34,11 @@
     margin-top: 12px;
     margin-right: 15px;
     cursor: auto;
+   }
+
+   .Inscrever{
+   
+    margin-right:px;
    }
 
    .c-azul{
@@ -61,7 +66,7 @@
         padding: 13px;
         padding-left: 33px;
         padding-right: 33px;
-        border-radius: 30px;
+        border-radius: 35PX;
         margin-right: 4px;
     }
 
@@ -71,7 +76,7 @@
         padding: 13px;
         padding-left: 33px;
         padding-right: 33px;
-        border-radius: 30px;
+        border-radius: 35px;
     }
 
     .gratis{
@@ -79,7 +84,7 @@
     }
     
    .termos{
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.692);
     cursor: pointer;
    }
 
@@ -89,6 +94,7 @@
    }
 
    .pqpremium{
+    padding-bottom: 35px;
     padding-top: 72px;
     font-weight: bold;
    }
@@ -97,20 +103,78 @@
     margin-top: 30px;
     width: 20rem;
     border: none;
+   }
 
+   .ouça{
+    width: 268px;
    }
 
    .imagem{
-    margin-left:5rem;
+    margin-left:72px;
     padding-bottom: 2rem;
     width: 9rem;
    }
 
    .c-cinza{
     background-color: #efefef;
-    height: 956px;
+    height: 68rem;
    }
- 
+
+   .plano{
+    padding-top: 21px;
+   }
+
+   .crd-cinza{
+    margin-top: -18px;
+    margin-right:10px;
+    width: 271px;
+    height: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 9px 24px 3px rgba(100,97,97,0.69); 
+    box-shadow: 5px 5px 10px 5px rgba(97, 98, 100, 0.137); 
+   }
+
+   .btn-plano { 
+    margin-top: 30px;
+   }
+
+   .um-mês{
+    font-size: 13px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #0c72e9;
+   }
+   
+   .pagamento{
+    padding: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-top: -6px;
+    font-size: 14px;
+   }
+
+   .linha-horizontal{
+    border-bottom: 1px solid #787878;
+   }
+
+   .btn-plano{
+    margin-top: 5px;
+    font-weight: bold;
+    background-color: #000000;
+    padding: 11px;
+    width: 100%;
+    border-radius: 35px;
+   }
+
+   .sujeito{
+    font-size: 12px;
+   }
+
+   .termo{
+    border-bottom: 1px solid #787878;
+   }
+
    .c-preto{
     background-color: #000000;
     height: 530px;
