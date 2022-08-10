@@ -50,6 +50,27 @@
     padding-bottom: 36px;
    }
 
+    .começar{
+        font-weight: bold;
+        background-color: #181413;
+        padding: 13px;
+        padding-left: 33px;
+        padding-right: 33px;
+        border-radius: 30px;
+    }
+
+    .planos{
+        background: #1d76de;
+        font-weight: bold;
+        padding: 13px;
+        padding-left: 33px;
+        padding-right: 33px;
+        border-radius: 30px;
+    }
+
+    .gratis{
+        font-size: 10px;
+    }
    .termos{
     border-bottom: 1px solid #fff ;
    }
@@ -70,7 +91,7 @@
    }
 
    .todoscrd {
-    width: 269px;
+    width: 72vh;
    }
    
    .c-preto{
