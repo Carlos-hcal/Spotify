@@ -1,4 +1,5 @@
     body{
+        background-color: #fff;
         padding: 0;
         margin: 0;
     }
@@ -157,6 +158,16 @@
    .linha-horizontal{
     border-bottom: 1px solid #787878;
    }
+   .descer1{
+    margin-bottom: 176px;
+   }
+
+   .descer2{
+    margin-bottom: 192px;
+   }
+   .descer4{
+    margin-bottom: 95px;
+   }
 
    .btn-plano{
     margin-top: 5px;
@@ -178,6 +189,20 @@
    .c-preto{
     background-color: #000000;
     height: 530px;
+   }
+
+   .social > img{
+    margin-left: -350px;
+    background-color: #fff;
+    width: 54px;
+    border: 15px solid #222326 ;
+    border-radius: 15px;
+    
+   }
+
+   .social > img:hover{
+    background-color: #22d661;
+
    }
 
 
