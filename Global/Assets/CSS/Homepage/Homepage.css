@@ -1,5 +1,4 @@
     body{
-        background-color: #fff;
         padding: 0;
         margin: 0;
     }
@@ -12,7 +11,8 @@
     a > img{
         width: 190px;
         cursor: pointer;
-        margin-left: -16px;
+        margin-left: 10px;
+        
     }
 
     a {
@@ -21,7 +21,7 @@
     }
 
     .nav-premium{
-        margin-left: 21vw;
+      margin-left: 26vw; 
     }
 
     a:hover{
@@ -30,19 +30,19 @@
     }
 
     .navlist > li {
-        margin-left: 20px;
+        margin-left: 10px;
     }
 
    .linha{
     border-right: 1px solid #fff;
     margin-top: 12px;
-    margin-right: 15px;
+    margin-right: 16px;
     cursor: auto;
    }
 
    .Inscrever{
    
-    margin-right:px;
+    margin-right:7px;
    }
 
    .c-azul{
@@ -194,8 +194,64 @@
     height: 530px;
    }
 
+   .lado{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+   }
 
+   .lado > div{
+    font-weight: bold;
+    margin-right: 72px;
+   }
 
+   .logodois{
+    margin-top: -40px;
+    margin-left: -20px;
+   }
 
+   .footer-list{
+    color: #929394;
+   }
 
+   .carro > li{
+    margin-top: 18px;
+   }
 
+   .social{
+    margin-left: 60px;
+   }
+    
+   .icones{
+    height: 30px;
+   }
+
+   .icones > img{
+    width: 30px;
+    background: #fff;
+    margin-right: 20px;
+}
+
+    .icones > img:hover{
+        background: #22d661;
+    }
+
+   .pequeno > li{
+    font-size: 13px;
+    color: #939394;
+    margin-left: 25px;
+    margin-top: 59px;
+   }
+
+   .pequeno > li:hover{
+    color: #22d661;
+    cursor: pointer;
+   }
+
+   .Brasil{
+    margin-top: 32px;
+   }
+
+   .Brasil > h6{
+    font-size: 13px;
+   }
