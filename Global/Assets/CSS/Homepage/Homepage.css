@@ -12,13 +12,16 @@
     a > img{
         width: 190px;
         cursor: pointer;
-        margin-right: 21vw;
         margin-left: -16px;
     }
 
     a {
         color: #fff;
         text-decoration: none;
+    }
+
+    .nav-premium{
+        margin-left: 21vw;
     }
 
     a:hover{
@@ -186,24 +189,12 @@
     border-bottom: 1px solid #787878;
    }
 
-   .c-preto{
+   .footer{
     background-color: #000000;
     height: 530px;
    }
 
-   .social > img{
-    margin-left: -350px;
-    background-color: #fff;
-    width: 54px;
-    border: 15px solid #222326 ;
-    border-radius: 15px;
-    
-   }
 
-   .social > img:hover{
-    background-color: #22d661;
-
-   }
 
 
 
