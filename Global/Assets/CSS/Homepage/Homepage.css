@@ -2,6 +2,34 @@
         padding: 0;
         margin: 0;
     }
+    .alinhameti_divs{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-spotify{
+        height: 770px;
+        width: 269px;
+        background: #FFFFFF;
+        border-radius: 16px;
+        margin: 0px 16px 0px 0px;
+        padding: 16px 16px 0px;
+    }
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(0, 0, 0);
+        display: block;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        margin: 0px 0px 2px;
+    }
+    
+    h3{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #000000;
+        font-size: 24px;
+    }
     
     .navbar{
         background: #000000;
