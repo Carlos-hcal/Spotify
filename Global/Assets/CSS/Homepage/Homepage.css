@@ -1,8 +1,9 @@
     body{
         padding: 0;
         margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-    .alinhameti_divs{
+    .alinhameto_divs{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -16,11 +17,9 @@
         padding: 16px 16px 0px;
     }
     p{
-        font-family: Arial, Helvetica, sans-serif;
         color: rgb(0, 0, 0);
         display: block;
         font-size: 16px;
-        font-weight: 400;
         line-height: 22px;
         margin: 0px 0px 2px;
     }
@@ -43,7 +42,7 @@
         
     }
 
-    a {
+    .cor{
         color: #fff;
         text-decoration: none;
     }
@@ -52,7 +51,7 @@
       margin-left: 26vw; 
     }
 
-    a:hover{
+    .cor:hover{
         color: #22d661;
         text-decoration: none;
     }
@@ -79,17 +78,13 @@
    }
 
    .aproveite{
-    padding-top: 71px;
-    padding-bottom: 25px;
-   }
 
-   .depois{
-    font-size: 23px;
-    padding-bottom: 20px;
+    margin-top: 71px;
+    margin-bottom: 35px;
    }
 
    .botões{
-    padding-bottom: 36px;
+    margin-bottom: 36px;
    }
 
     .começar{
@@ -135,6 +130,11 @@
     margin-top: 30px;
     width: 20rem;
     border: none;
+    
+   }
+
+   .espaçamento > div {
+    margin-left: -33px;
    }
 
    .ouça{
@@ -142,7 +142,6 @@
    }
 
    .imagem{
-    margin-left:72px;
     padding-bottom: 2rem;
     width: 9rem;
    }
@@ -154,6 +153,24 @@
 
    .plano{
     padding-top: 21px;
+   }
+
+   .cartões{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 63px;
+   }
+
+   .elo{
+    width: 29px;
+   }
+
+   .hipercard{
+    width: 29px;
+   }
+
+   .outros{
+
    }
 
    .crd-cinza{
@@ -187,17 +204,33 @@
    }
 
    .linha-horizontal{
+    margin-top: 5px;
     border-bottom: 1px solid #787878;
    }
+
+   .linha-horizontal4{
+    margin-top: 25px;
+    border-bottom: 1px solid #787878;
+   }
+
+   .certo{
+    width: 25px;
+    padding-bottom: 10px;
+   }
+
    .descer1{
-    margin-bottom: 176px;
+    margin-bottom: 149px;
    }
 
    .descer2{
-    margin-bottom: 192px;
+    margin-bottom: 186px;
+   }
+
+   .descer3{
+    margin-bottom: px;
    }
    .descer4{
-    margin-bottom: 95px;
+    margin-bottom: 125px;
    }
 
    .btn-plano{
@@ -210,11 +243,18 @@
    }
 
    .sujeito{
-    font-size: 12px;
+    margin-top: 15px ;
+    font-size: 11px;
+    line-height:15px;
+    color: #525252;
    }
 
    .termo{
-    border-bottom: 1px solid #787878;
+    border-bottom: 1px solid #787878b9;
+   }
+
+   .termo:hover{
+    cursor: pointer;
    }
 
    .footer{
@@ -244,7 +284,7 @@
     color: #929394;
    }
 
-   .carro > li{
+   .espaço > li{
     margin-top: 18px;
    }
 
