@@ -2,6 +2,20 @@ body{
     background: #efefef;
 }
 
+.navbar-dark .navbar-nav .nav-link{
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #1ed760;
+}
+.navbar-dark .navbar-toggler {
+    color: rgba(255,255,255);
+    border: none;
+}
+.text-white:hover{
+    color: #1ed760;
+}
 h1{
     font-size: 40px;
     color: #FFFFFF;
@@ -31,10 +45,12 @@ p{
     padding: 0px;
     color: black;
 }
+.itens_direito{
+    padding: 0px 0px 0px 30%;
+}
 
 .logo1{
-width: 190px;
-margin-left: 317px;
+    width: 190px;
 }
 
 .premium{
@@ -58,14 +74,17 @@ margin-left: 317px;
 }
 
 .espaço1{
-    margin-top: 55%; 
+    margin-top: 49%; 
+}
+.espaço3{
+    margin-top: 12%;
 }
 
 .espaço2{
-margin-top: 71%;
+margin-top: 62%;
 }
 .espaço4{
-    margin-top: 54%;
+    margin-top: 50%;
 }
 
 
@@ -73,8 +92,9 @@ margin-top: 71%;
     width: 150px;
 }
 .cards_flutuantes{
-    width: 271px;
+    width: 330px;
     height: 772px; 
+    box-shadow: rgb(0 0 0 / 30%) 0px 0px 8px;
 }
 .card{
     border-radius: 16px;
@@ -82,16 +102,14 @@ margin-top: 71%;
 
 .background_azul{
     background-color: #1d75de;
+    padding: 0px 0px 0px 9%;
 }
 
-.lado_azul{
-margin-left:350px ;
-}
+
 .buttons button {
     border-radius: 32px ; 
     margin: 35px 0px 0px;
     padding-block: 14px;
-    padding-inline: 32px;
 }
 
 .cards_pq{
@@ -149,16 +167,16 @@ margin-left:350px ;
 
 .pagamento{
     font-size: 15px;
+    
 }
 
 .c-preto{
     background: #000000;
-    height: 80px;
+    padding: 0px 0px 0px 8%;
 }
 
 .logo2 img{
     width: 190px;
-margin-left: 317px;
 }
 
 .lado_preto{
@@ -204,18 +222,90 @@ width: 24px;
 .sujeito{
     margin-top: 10px;
     font-size: 12px;
-    text
+    
 }
 
 .footer-preto{
     background: #000;
 }
+.footer_itens{
+    display: flex;
+}
 
-@media and (min-width:576px;){
+@media (max-width:576px){
 
     .cards_flutuantes{
-     width: 50%%;   
+     width: 100%; 
+     height: 100%;  
     }
+    .buttons .buttom_preto{
+        width: 100%;
+        height: 8%;
+        font-weight: bold;
+        justify-content: center;
+        border: 2px solid rgb(25, 20, 20);
+        text-decoration: none !important;
+        background: black;
+        
+    }
+    .buttons .buttom_transparente{
+        width: 100%;
+        height: 8%;
+        margin-top: 10px ;
+        font-weight: bold;
+        -webkit-box-pack: center;
+        justify-content: center;
+        border: 2px solid rgb(255, 255, 255);
+        text-decoration: none !important;
+        color: #FFFFFF;
+    }
+    .sujeito{
+        margin-top: 10px;
+        font-size: 12px;
+        
+        
+    }
+    .footer_itens{
+        display: block;
+    }
+    .social{
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .social img{
+        width: 30px;
+    }
+    .logo2 img{
+        display: flex;
+    }
+    .cards_premium {
+        background: #efefef;
+        padding: 0%;
+        margin-top: 0%;
+        margin-bottom: 10%;
+    }
+    .espaço1 {
+        margin-top: 5%;
+    }
+    .espaço2{
+        margin-top: 5%;
+    }
+    .espaço4 {
+        margin-top: 5%;
+    }
+    .c-preto{
+        background: #000000;
+        padding: 0px 0px 0px 0%;
+    }
+    .itens_direito{
+        padding: 0px 0px 0px 0%;
+    }
+    
+.background_azul{
+    background-color: #1d75de;
+    padding: 3% 3% 3% 3%;
+}
+    
 
 
 
