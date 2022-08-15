@@ -28,13 +28,23 @@ p{
     padding: 0px;
     color: black;
 }
+
+.alinhameto_divs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .cards_premium{
     background: #efefef;
-    
+}
+
+.cards_pq img {
+    width: 150px;
 }
 .cards_flutuantes{
-    width: 269px;
-    height: 770px;
+    width: 271px;
+    height: 772px; 
 }
 .card{
     border-radius: 16px;
@@ -48,6 +58,17 @@ p{
     margin: 35px 0px 0px;
     padding-block: 14px;
     padding-inline: 32px;
+}
+
+.elo{
+    width: 30px;
+}
+.hipercard{
+    width: 30px;
+}
+
+.outros{
+    text-decoration: underline;
 }
 .buttons .buttom_preto{
     justify-content: center;
@@ -80,4 +101,21 @@ p{
 }
 .escolha_premium{
     background-color: #efefef;
+}
+
+.pagamento{
+    font-size: 15px;
+}
+
+.c-preto{
+    background: #000000;
+}
+
+.logo2 img{
+    width: 200px;
+}
+
+.social img{
+    width: 38px;
+    border-radius: 10px;
 }
