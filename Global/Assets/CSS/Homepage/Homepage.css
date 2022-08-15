@@ -1,3 +1,6 @@
+body{
+    background: #efefef;
+}
 
 h1{
     font-size: 40px;
@@ -29,6 +32,19 @@ p{
     color: black;
 }
 
+.logo1{
+width: 190px;
+margin-left: 317px;
+}
+
+.premium{
+    margin-left: 400px;
+}
+
+.c-branco{
+    background: #FFFFFF;
+}
+
 .alinhameto_divs{
     display: flex;
     justify-content: center;
@@ -37,9 +53,23 @@ p{
 
 .cards_premium{
     background: #efefef;
+    padding: 14%;
+    margin-top: -14%;
 }
 
-.cards_pq img {
+.espaço1{
+    margin-top: 55%; 
+}
+
+.espaço2{
+margin-top: 71%;
+}
+.espaço4{
+    margin-top: 54%;
+}
+
+
+.cards_imgs{
     width: 150px;
 }
 .cards_flutuantes{
@@ -53,11 +83,19 @@ p{
 .background_azul{
     background-color: #1d75de;
 }
+
+.lado_azul{
+margin-left:350px ;
+}
 .buttons button {
     border-radius: 32px ; 
     margin: 35px 0px 0px;
     padding-block: 14px;
     padding-inline: 32px;
+}
+
+.cards_pq{
+    margin-left: -8%;
 }
 
 .elo{
@@ -71,6 +109,9 @@ p{
     text-decoration: underline;
 }
 .buttons .buttom_preto{
+    width: 10%;
+    height: 14%;
+    font-weight: bold;
     justify-content: center;
     border: 2px solid rgb(25, 20, 20);
     text-decoration: none !important;
@@ -78,6 +119,9 @@ p{
     
 }
 .buttons .buttom_transparente{
+    width: 11%;
+    height: 14%;
+    font-weight: bold;
     -webkit-box-pack: center;
     justify-content: center;
     border: 2px solid rgb(255, 255, 255);
@@ -109,13 +153,70 @@ p{
 
 .c-preto{
     background: #000000;
+    height: 80px;
 }
 
 .logo2 img{
-    width: 200px;
+    width: 190px;
+margin-left: 317px;
+}
+
+.lado_preto{
+    margin-left: 50px;
 }
 
 .social img{
     width: 38px;
     border-radius: 10px;
 }
+
+.começar{
+    font-weight: bold;
+    border-radius: 32px;
+    height: 7%;
+    background: black;
+    color: white;
+    width: 100%;
+}
+
+.certo1 img{
+padding-bottom: 30px;
+width: 24px;
+}
+.certo2 img{
+    padding-bottom: 35px;
+    width: 24px;
+    }
+.certo3 img{
+    padding-bottom: 40px;
+    width: 24px;
+}
+
+.certo4 img{
+     padding-bottom: 20px;
+    width: 24px;
+}
+
+.termos{
+    text-decoration: underline;
+    color: #535353;
+}
+.sujeito{
+    font-size: 12px;
+    text
+}
+
+.footer-preto{
+    background: #000;
+}
+
+@media and (min-width:576px;){
+
+    .cards_flutuantes{
+     width: 50%%;   
+    }
+
+
+
+}
+    
