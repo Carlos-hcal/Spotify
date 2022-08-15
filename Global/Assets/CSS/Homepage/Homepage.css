@@ -46,9 +46,6 @@ p{
     padding: 0px;
     color: black;
 }
-.itens_direito{
-    padding: 0px 0px 0px 30%;
-}
 
 .logo1{
     width: 190px;
@@ -243,6 +240,7 @@ width: 24px;
     margin-top: 11px;
 }
 
+
 @media (max-width:576px){
 
     .cards_flutuantes{
@@ -272,42 +270,50 @@ width: 24px;
     }
     .sujeito{
         margin-top: 10px;
-        font-size: 12px;
-        
-        
+        font-size: 12px;   
     }
+
     .footer_itens{
         display: block;
     }
+
     .social{
         display: flex;
         margin-bottom: 20px;
     }
+
     .social img{
         width: 30px;
     }
+
     .logo2 img{
         display: flex;
     }
+
     .cards_premium {
         background: #efefef;
         padding: 0%;
         margin-top: 0%;
-        margin-bottom: 10%;
+        margin-bottom: 10%;   
     }
+
     .espaço1 {
         margin-top: 5%;
     }
+
     .espaço2{
         margin-top: 5%;
     }
+
     .espaço4 {
         margin-top: 5%;
     }
+
     .c-preto{
         background: #000000;
         padding: 0px 0px 0px 0%;
     }
+
     .itens_direito{
         padding: 0px 0px 0px 0%;
     }
@@ -315,10 +321,23 @@ width: 24px;
 .background_azul{
     background-color: #1d75de;
     padding: 3% 3% 3% 3%;
-}
-    
-
-
+}  
 
 }
+
+@media (max-width: 1366px){
+    .cards_premium {
+        background: #efefef;
+        padding: 0%;
+        margin-top: 0%;
+        margin-bottom: 50px;
     
+}
+
+.cards_flutuantes {
+    width: 320px;
+    height: 772px;
+    box-shadow: rgb(0 0 0 / 30%) 0px 0px 8px;
+}
+
+}
